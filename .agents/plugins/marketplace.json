@@ -1,0 +1,33 @@
+{
+  "name": "partme-ai-wecom-cli",
+  "interface": {
+    "displayName": "WeCom CLI (Office Collaboration)"
+  },
+  "plugins": [
+    {
+      "name": "wecom-cli",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/full-work-plugins/wecom-cli-plugin.git",
+        "ref": "v0.1.0"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "line": "full-work",
+      "componentTypes": [
+        "skills"
+      ],
+      "version": "0.1.0",
+      "description": "Use the local WeCom CLI for messages, docs, sheets, mail, meetings, and tasks.",
+      "icon": "https://cdn.jsdelivr.net/gh/full-work-plugins/wecom-cli-plugin@v0.1.0/assets/logo.svg",
+      "interface": {
+        "displayName": "WeCom CLI (Office Collaboration)",
+        "shortDescription": "WeCom messages, mail, and meetings via local CLI.",
+        "logo": "https://cdn.jsdelivr.net/gh/full-work-plugins/wecom-cli-plugin@v0.1.0/assets/logo.svg"
+      }
+    }
+  ]
+}

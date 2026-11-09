@@ -1,7 +1,7 @@
 {
   "name": "wecom-cli",
   "version": "0.1.0",
-  "description": "WeCom CLI workflows for messages, docs, sheets, mail, calendar, meetings, contacts, and todos with QR authentication.",
+  "description": "Use the local WeCom CLI for messages, docs, sheets, mail, meetings, and tasks.",
   "author": {
     "name": "PartMe.AI"
   },
@@ -18,10 +18,12 @@
     "calendar",
     "todo"
   ],
-  "displayName": "企业微信 CLI",
+  "displayName": "WeCom CLI (Office Collaboration)",
   "description_i18n": {
-    "en": "WeCom CLI workflows for messages, docs, sheets, mail, calendar, meetings, contacts, and todos with QR authentication.",
-    "zh-CN": "企业微信 CLI 工作流：覆盖消息、文档、表格、邮件、日历、会议、通讯录和待办，并支持扫码授权与状态检查。"
+    "zh-CN": "通过本机企业微信 CLI 处理消息、文档、表格、邮件、会议和待办。"
   },
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "displayName_i18n": {
+    "zh-CN": "WeCom CLI（办公协作）"
+  }
 }
