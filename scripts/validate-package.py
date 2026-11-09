@@ -18,8 +18,8 @@ assert len(market['plugins']) == 1
 entry = market['plugins'][0]
 assert entry['name'] == name and entry['version'] == version and entry['description'] == core['description']
 assert entry['source'] == {'source': 'url', 'url': f'https://github.com/full-work-plugins/{name}-plugin.git', 'ref': f'v{version}'}
-assert (ROOT / 'assets/logo.svg').is_file()
-assert entry['icon'].endswith(f'@v{version}/assets/logo.svg')
+assert (ROOT / 'assets/logo.png').is_file()
+assert entry['icon'].endswith(f'@v{version}/assets/logo.png')
 for suffix in ('setup', 'use'):
     skill = f'{name}-{suffix}'
     text = (ROOT / 'skills' / skill / 'SKILL.md').read_text(encoding='utf-8')

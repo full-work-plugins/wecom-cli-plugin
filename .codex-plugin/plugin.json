@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "wecom-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use the local WeCom CLI for messages, docs, sheets, mail, meetings, and tasks.",
   "author": {
     "name": "PartMe.AI"
@@ -18,5 +18,13 @@
     "sheets",
     "calendar",
     "todo"
-  ]
+  ],
+  "interface": {
+    "displayName": "WeCom CLI (Office Collaboration)",
+    "shortDescription": "WeCom messages, mail, and meetings via local CLI.",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png",
+    "composerIconDark": "./assets/logo.png"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "wecom-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use the local WeCom CLI for messages, docs, sheets, mail, meetings, and tasks.",
   "author": {
     "name": "PartMe.AI"
@@ -20,10 +20,12 @@
   ],
   "displayName": "WeCom CLI (Office Collaboration)",
   "description_i18n": {
-    "zh-CN": "通过本机企业微信 CLI 处理消息、文档、表格、邮件、会议和待办。"
+    "en": "Use the local WeCom CLI for messages, docs, sheets, mail, meetings, and tasks.",
+    "zh-CN": "企业微信 CLI 工作流：覆盖消息、文档、表格、邮件、日历、会议、通讯录和待办，并支持扫码授权。"
   },
   "skills": "./skills/",
   "displayName_i18n": {
-    "zh-CN": "WeCom CLI（办公协作）"
+    "en": "WeCom CLI (Office Collaboration)",
+    "zh-CN": "企业微信 CLI"
   }
 }
