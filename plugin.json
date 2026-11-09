@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wecom-cli",
+  "version": "0.1.0",
+  "description": "WeCom CLI workflows for messages, docs, sheets, mail, calendar, meetings, contacts, and todos with QR authentication.",
+  "author": {
+    "name": "PartMe.AI"
+  },
+  "homepage": "https://github.com/full-work-plugins/wecom-cli-plugin",
+  "repository": "https://github.com/full-work-plugins/wecom-cli-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "wecom",
+    "wechat-work",
+    "wecom-cli",
+    "message",
+    "docs",
+    "sheets",
+    "calendar",
+    "todo"
+  ]
+}
