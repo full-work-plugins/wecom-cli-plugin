@@ -9,7 +9,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/full-work-plugins/wecom-cli-plugin.git",
-        "ref": "v0.1.1"
+        "ref": "v0.1.2"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20,13 +20,13 @@
       "componentTypes": [
         "skills"
       ],
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Use the local WeCom CLI for messages, docs, sheets, mail, meetings, and tasks.",
-      "icon": "https://cdn.jsdelivr.net/gh/full-work-plugins/wecom-cli-plugin@v0.1.1/assets/logo.png",
+      "icon": "https://cdn.jsdelivr.net/gh/full-work-plugins/wecom-cli-plugin@v0.1.2/assets/logo.png",
       "interface": {
         "displayName": "WeCom CLI (Office Collaboration)",
         "shortDescription": "WeCom messages, mail, and meetings via local CLI.",
-        "logo": "https://cdn.jsdelivr.net/gh/full-work-plugins/wecom-cli-plugin@v0.1.1/assets/logo.png"
+        "logo": "https://cdn.jsdelivr.net/gh/full-work-plugins/wecom-cli-plugin@v0.1.2/assets/logo.png"
       }
     }
   ]
