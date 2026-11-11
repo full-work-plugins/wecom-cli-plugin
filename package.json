@@ -1,0 +1,14 @@
+{
+  "name": "wecom-cli",
+  "description": "Use the local WeCom CLI for messages, docs, sheets, mail, meetings, and tasks.",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "main": "./dsh/lib/index.js",
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh/cordis.patch.yml"
+    }
+  },
+  "icon": "./dsh/icon.png"
+}

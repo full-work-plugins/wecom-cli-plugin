@@ -1,6 +1,6 @@
 {
   "name": "wecom-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Use the local WeCom CLI for messages, docs, sheets, mail, meetings, and tasks.",
   "author": {
     "name": "PartMe.AI"
