@@ -1,0 +1,38 @@
+{
+  "name": "wecom-cli",
+  "version": "0.1.2",
+  "description": "Use the local WeCom CLI for messages, docs, sheets, mail, meetings, and tasks.",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.png",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*": "./locale/*"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "lib/index.js",
+    "icon.png",
+    "README.md",
+    "locale"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "wecom",
+    "wechat-work",
+    "wecom-cli",
+    "message",
+    "docs",
+    "sheets",
+    "calendar",
+    "todo"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "private": true
+}

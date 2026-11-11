@@ -1,0 +1,3 @@
+- insert:
+    - id: wecom-cli-plugin
+      name: 'wecom-cli'
